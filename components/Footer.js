@@ -1,7 +1,9 @@
+"use client";
 import Location from "@mui/icons-material/LocationOnOutlined";
 import Phone from "@mui/icons-material/PhoneOutlined";
 import Fax from "@mui/icons-material/FaxOutlined";
 import Email from "@mui/icons-material/EmailOutlined";
+import React, { useRef } from "react";
 
 export default function Footer() {
   return (
