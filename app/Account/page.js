@@ -1,7 +1,7 @@
 export default function Page() {
   return (
-    <div className="shop">
-      <h1>Shop</h1>
+    <div className="account">
+      <h1>Accounts</h1>
     </div>
   );
 }

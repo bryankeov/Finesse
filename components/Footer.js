@@ -4,6 +4,7 @@ import Phone from "@mui/icons-material/PhoneOutlined";
 import Fax from "@mui/icons-material/FaxOutlined";
 import Email from "@mui/icons-material/EmailOutlined";
 import React, { useRef } from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (

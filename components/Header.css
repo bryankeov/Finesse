@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  background-color: var(--main-color);
+  height: 20vh;
+  padding: 10px;
+}
+
+.header-logo {
+  max-width: 700px;
+}
+
+Image {
+  width: auto;
+  max-width: 100%;
+  height: 15vh;
+}
+
+.header-icons {
+  margin-left: auto;
+
+}
+
+.header-icon {
+  width: auto;
+  height: 5vh;
+  margin: 20px;
+  cursor: pointer;
+}

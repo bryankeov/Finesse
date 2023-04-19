@@ -2,6 +2,7 @@ import './globals.css'
 import Head from "next/head";
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
+import Menu from "../components/Menu.js";
 
 export const metadata = {
   title: 'Finesse Tissue',
@@ -20,9 +21,12 @@ export default function RootLayout({
       </Head>
       <body>
       <Header />
+      <div className="display">
+        <Menu />
         {children}
-        <Footer />
-        </body>
+      </div>
+      <Footer />
+      </body>
     </html>
   )
 }
