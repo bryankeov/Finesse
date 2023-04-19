@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Logo from "../assets/Logo.png";
+import Image from "next/image";
+import Logo from "public/Logo.png";
 import Cart from "@mui/icons-material/ShoppingCart";
 import Account from "@mui/icons-material/AccountCircle";
 
@@ -10,7 +11,7 @@ export default function Header() {
     <div className="header">
       <div className="header-left">
         <Link href="/">
-          <img src={Logo} alt="Finesse Tissue Logo" />
+          <Image src={Logo} alt="Finesse Tissue Logo" />
         </Link>
       </div>
       <div className="header-right">
