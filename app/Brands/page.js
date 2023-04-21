@@ -2,14 +2,19 @@
 
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import styles from "./brands.module.css";
 
 export default function Page() {
   return (
     <div className="brands">
       <h1>Our Brands</h1>
-      <ul>
+      <ul className={styles.container}>
         <li>
-          <Popup trigger={<button>Finesse</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Finesse</button>}
+            modal
+            nested
+          >
             <h4>Finesse</h4>
             <p>
               The Finesse product range offers superior quality across all
@@ -21,7 +26,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Comfort</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Comfort</button>}
+            modal
+            nested
+          >
             <h4>Comfort</h4>
             <p>
               The range of Comfort products is renowned for its premium quality
@@ -33,7 +42,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Classic</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Classic</button>}
+            modal
+            nested
+          >
             <h4>Classic</h4>
             <p>
               The deluxe quality Classic range of products features an
@@ -43,7 +56,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Luxury</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Luxury</button>}
+            modal
+            nested
+          >
             <h4>Luxury</h4>
             <p>
               The Luxury range of products boasts a deluxe quality, with a
@@ -53,7 +70,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>EverSoft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>EverSoft</button>}
+            modal
+            nested
+          >
             <h4>EverSoft</h4>
             <p>
               The Facial Tissue range from Eversoft offers deluxe quality
@@ -63,7 +84,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>SilkySoft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>SilkySoft</button>}
+            modal
+            nested
+          >
             <h4>SilkySoft</h4>
             <p>
               The Silkysoft range of products is known for its premium quality,
@@ -74,7 +99,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>MaxiSoft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>MaxiSoft</button>}
+            modal
+            nested
+          >
             <h4>MaxiSoft</h4>
             <p>
               The Maxi Soft range of products offers standard quality Bathroom
@@ -84,7 +113,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Unisoft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Unisoft</button>}
+            modal
+            nested
+          >
             <h4>Unisoft</h4>
             <p>
               The Unisoft range of products offers standard quality and great
@@ -94,7 +127,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Bliss</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Bliss</button>}
+            modal
+            nested
+          >
             <h4>Bliss</h4>
             <p>
               The Bliss range of products offers standard quality with
@@ -110,7 +147,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Simplee</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Simplee</button>}
+            modal
+            nested
+          >
             <h4>Simplee</h4>
             <p>
               The Simplee range of products offers standard quality with great
@@ -120,7 +161,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Super Soft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Super Soft</button>}
+            modal
+            nested
+          >
             <h4>Super Soft</h4>
             <p>
               The Super Soft range of products is our economy line, offering
@@ -130,7 +175,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Ocean Soft</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Ocean Soft</button>}
+            modal
+            nested
+          >
             <h4>Ocean Soft</h4>
             <p>
               The Ocean Soft range of products is our economy line, offering
@@ -140,7 +189,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Maxi Strong</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Maxi Strong</button>}
+            modal
+            nested
+          >
             <h4>Maxi Strong</h4>
             <p>
               Our Maxi Strong Paper Towels are known for their extra strength
@@ -151,7 +204,11 @@ export default function Page() {
           </Popup>
         </li>
         <li>
-          <Popup trigger={<button>Simplee Strong</button>} modal nested>
+          <Popup
+            trigger={<button className={styles.button}>Simplee Strong</button>}
+            modal
+            nested
+          >
             <h4>Simplee Strong</h4>
             <p>
               The Simplee Strong paper towels are quilted in texture and
