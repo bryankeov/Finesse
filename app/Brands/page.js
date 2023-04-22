@@ -7,7 +7,7 @@ import styles from "./brands.module.css";
 export default function Page() {
   return (
     <div className="brands">
-      <h1>Our Brands</h1>
+      <h1 className="font-bold text-2xl text-center margin m-6">Our Brands</h1>
       <ul className={styles.container}>
         <li>
           <Popup

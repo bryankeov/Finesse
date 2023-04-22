@@ -16,6 +16,7 @@ export default function HomeCarousel() {
       infiniteLoop
       stopOnHover
       transitionTime={1000}
+      showStatus={false}
     >
       <div className="free-delivery">
         <Image

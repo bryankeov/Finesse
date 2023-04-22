@@ -14,6 +14,6 @@
 }
 
 .menu-link:hover {
-  color: blue;
+  color: var(--main-color);
   font-weight: 900;
 }
