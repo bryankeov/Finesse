@@ -16,8 +16,12 @@ export default function Header() {
         </Link>
       </div>
       <div className="header-icons">
-        <Account className="header-icon" />
-        <Cart className="header-icon" />
+        <Link href="/Account">
+          <Account className="header-icon" />
+        </Link>
+        <Link href="/Cart">
+          <Cart className="header-icon" />
+        </Link>
       </div>
     </div>
   );

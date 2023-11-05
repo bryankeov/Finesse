@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="sustainability">
+    <div className="sustainability m-5">
       <Image
         className="float-right w-96 h-auto"
         src={SusTrees}
@@ -14,17 +14,20 @@ export default function Page() {
         manufacturing processes on the environment and ensure that all of our
         paper products meet Australian standards.
       </p>
+      <br />
       <p className="sus-text">
         Our commitment to minimizing waste is evident through the recycling of
         excess paper products during manufacturing and the repurposing of
         offcuts and wastepaper by paper mills into products like outer cartons
         and cupboard products.
       </p>
+      <br />
       <p className="sus-text">
         Unlike other bathroom tissue products in Australia that can cause
         blockages in sewage pipes due to their inability to break down, our
         bathroom tissue products are fully biodegradable.
       </p>
+      <br />
       <p className="sus-text">
         We have been dedicated to environmental sustainability for over 20 years
         and will continue to prioritize reducing the potential impact of our

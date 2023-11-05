@@ -19,9 +19,6 @@ export default function Menu() {
       <Link href="/Enquiries" className="menu-link">
         ENQUIRIES
       </Link>
-      <Link href="/Account" className="menu-link">
-        MY ACCOUNT
-      </Link>
     </div>
   );
 }
