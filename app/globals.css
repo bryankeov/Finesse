@@ -34,3 +34,8 @@ body {
   display: flex;
   height: 800px;
 }
+
+h4 {
+  font-size: large;
+  font-weight: 900;
+}

@@ -3,11 +3,68 @@ export default function Page() {
     <div className="brands">
       <h4>Enquiries</h4>
       <p>Leave us a message</p>
-      <form>
-        <input type="text" placeholder="Name" />
-        <input type="text" placeholder="Email" />
-        <input type="text" placeholder="Subject" />
-        <input type="text" placeholder="Message" />
+      <form
+        className="
+          flex
+          flex-col
+          w-64
+        "
+      >
+        <input
+          type="text"
+          placeholder="Name"
+          className="border-2
+              border-solid
+            border-slate-300
+              m-1
+              p-1
+              rounded
+              flex-1"
+        />
+        <input
+          type="text"
+          placeholder="Email"
+          className="border-2
+              border-solid
+            border-slate-300
+              m-1
+              p-1
+              rounded
+              flex-1"
+        />
+        <input
+          type="text"
+          placeholder="Subject"
+          className="border-2
+              border-solid
+            border-slate-300
+              m-1
+              p-1
+              rounded
+              flex-1"
+        />
+        <textarea
+          type="text"
+          placeholder="Message"
+          className="border-2
+              border-solid
+            border-slate-300
+              m-1
+              p-1
+              rounded
+              flex-1"
+        />
+        <button
+          className="
+          rounded
+          border-solid
+          border-slate-300
+          border-2
+          m-1
+          "
+        >
+          Submit
+        </button>
       </form>
     </div>
   );

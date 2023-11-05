@@ -11,14 +11,14 @@ import "./Carousel.css";
 export default function HomeCarousel() {
   return (
     <Carousel
-      className="carousel"
+      className="carousel-container"
       autoPlay
       infiniteLoop
       stopOnHover
       transitionTime={1000}
       showStatus={false}
     >
-      <div className="free-delivery">
+      <div className="free-delivery slides">
         <Image
           className="carousel-img"
           src={FreeDelivery}
@@ -29,7 +29,7 @@ export default function HomeCarousel() {
       </div>
       <Link href="/Brands">
         <Image
-          className="carousel-img"
+          className="carousel-img slides"
           src={ForestImage}
           alt="Healthy forest"
         />
@@ -38,7 +38,7 @@ export default function HomeCarousel() {
       </Link>
       <Link href="/Sustainability">
         <Image
-          className="carousel-img"
+          className="carousel-img slides"
           src={ForestImage}
           alt="Healthy forest"
         />
