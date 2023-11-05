@@ -20,7 +20,7 @@ async () => {
     const { insertedId } = result;
     console.log("Result: ", insertedId);
 
-    const document = await productCollection.findOne({ _id: nisertedId });
+    const document = await productCollection.findOne({ _id: insertedId });
     console.log("Document from db: ", document);
   } catch (e) {
     console.error(e);
